@@ -18,6 +18,12 @@ We will be dealing more with the datasets on `real_datasets`.\
     **Example**: Column E3 gives *sheet number 136*, and the corresponding file have the last 5 numbers *55240*. (In this case, `Sheet_2019022513255240.csv`) 
 
 ## Special notes on the datasets
-* **dud**: 
-* **DEAD**:
+* **dud**: The sheet went awry and we throw them away
+* **DEAD**: The sensors stops reading the sheet
 * **skewed**: The sheet has significant skew that might affect the quality of the data.
+
+### /version_cole:
+Cole seperated the sheets into training and testing and put them in their respective folders
+
+### /version_yuka:
+Building up from what Cole had done, Yuka renamed all the sheets as the actual sheet names so that the script to create an SQL file can be written more easily. (This is a temporary measure.)
